@@ -3,6 +3,9 @@ main
 zig-cache/
 zig-out/
 
+# Direnv
+.direnv
+
 # Compiled binary output
 bin/
 !bin/.gitkeep
