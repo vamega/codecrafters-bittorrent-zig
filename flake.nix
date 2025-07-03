@@ -29,7 +29,7 @@
     in {
       devShells.default = pkgs.mkShell {
         packages = [
-          zig-overlay.packages.${system}.master
+          zig-overlay.packages.${system}."0.14.1"
           zls.packages.${system}.default
         ];
       };
